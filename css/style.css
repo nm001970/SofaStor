@@ -1,0 +1,439 @@
+@import 'cssreset.css';
+@font-face {
+    font-family: Vazir;
+    src: url('../font/Vazir-Regular.eot') format('eot');
+    src: url('../font/Vazir-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../font/Vazir-Regular.woff2') format('woff2'),
+         url('../font/Vazir-Regular.woff') format('woff'),
+         url('../font/Vazir-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'Vazir';
+    direction: rtl;
+
+}
+.menu{
+    display: none;
+}
+.navlist-respons{
+    display: none;
+}
+.container{
+    width: 1700px;
+    margin: auto;
+    padding: 0 10px;
+}
+header{
+    width: 100%;
+}
+header nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+
+}
+header nav .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+
+}
+header nav .navlist{
+display: flex;
+}
+header nav .navlist ul {
+    display: flex;
+}
+header nav .navlist ul li {
+    margin: 0 15px;
+    font-size: 18px;
+}
+header nav .navlist ul li a{
+
+    text-decoration: none;
+}
+header nav .nav-icon{
+    display: flex;
+}
+header nav .nav-icon ul {
+    display: flex;
+    margin-left: 50px;
+    
+}
+header nav .nav-icon ul li i{
+    font-size: 24px;
+    margin: 0 15px;
+}
+/* slide */
+
+header #slid{
+    background-image: url('../images/slide.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+
+}
+header #slid .slider{
+    width: 100%;
+    height: 900px;
+    position: relative;
+    display: flex;
+
+}
+header #slid .slider span{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 140px;
+    font-weight: bold;
+    color: #e2e2e2;
+
+}
+header #slid .slider .slide-desc{
+    position: absolute;
+    left: 1%;
+    top: 35%;
+
+}
+header #slid .slider .slide-desc h1{
+    font-size: 120px;
+    margin-top: 30px;
+    margin-right: 300px;
+    color: #505050;
+    
+}
+header #slid .slider .slide-desc h2{
+    margin-right: 100px;
+    font-size: 90px;
+    color: #222222;
+}
+/* .hanging-lamp */
+#hanging-lamp{
+    width: 100%;
+    background-color:#b5a289;
+    position: relative;
+    display: flex;
+}
+#hanging-lamp .test{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 90%;
+    background-color: white;
+}
+#hanging-lamp .hanging-lamp{
+    display: flex;
+    justify-content: space-between;
+}
+#hanging-lamp .hanging-lamp .hangingright{
+    display: flex;
+    background-color: white;
+    position: relative;
+    width: 73.7%;
+}
+#hanging-lamp .hanging-lamp .hangingright .desc-right h1{
+    font-size: 40px;
+    margin: 30px 45px;
+}
+#hanging-lamp .hanging-lamp .hangingright .desc-right p{
+    margin-right: 52px;
+    font-size: 30px;
+    margin-bottom: 29px;
+    line-height: 60px;
+}
+#hanging-lamp .hanging-lamp .hangingright a{
+    text-decoration: none;
+    background-color: #000000;
+    padding: 5px 10px;
+    color: aliceblue;
+    position: absolute;
+    left: 55px;
+    top: 217px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #f8f96a;
+
+}
+#hanging-lamp .hanging-lamp .hangingright .img-right img{
+    width: 500px;
+    height: 300px;
+
+}
+#hanging-lamp .hanging-lamp .hangingrleft{
+    display: flex;
+    align-items: center;
+
+}
+#hanging-lamp .hanging-lamp .hangingrleft .desc-left{
+    width: 100%;
+}
+#hanging-lamp .hanging-lamp .hangingrleft h1{
+font-size: 30px;
+margin-top: 10px;
+}
+#hanging-lamp .hanging-lamp .hangingrleft h2{
+    font-size: 40px;
+    margin-top: 83px;
+    text-shadow: 1px 1px 20px azure;
+}
+/* lamp */
+#Lamp{
+    width: 100%;
+    height: 850px;
+    position: relative;
+    display: flex;
+}
+#Lamp .test2{
+    background-image: url('../images/hang.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 28.8%;
+}
+#Lamp  .hangingLamp-two{
+    display: flex;
+}
+#Lamp  .hangingLamp-two .two-right{
+    width: 72%;
+    height: 600px;
+}
+#Lamp .hangingLamp-two .two-left{
+    width: 28%;
+    height: 600px;
+
+}
+#Lamp .hangingLamp-two .two-left ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: -80px;
+}
+#Lamp .hangingLamp-two .two-left ul li{
+    width: 50%;
+    margin-bottom: 30px;
+    height: 335px;
+}
+#Lamp .hangingLamp-two .two-left ul li img{
+    width: 180px;
+    height: 200px;
+}
+#Lamp .hangingLamp-two .two-left ul li h3{
+    margin: 10px ;
+}
+/* sofa */
+.arshive{
+    display: none;
+}
+#sofa{
+    width: 100%;
+    background-color: #505050;
+    position: relative;
+    display: flex;
+}
+#sofa .sofa-cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 90%;
+    background-color: white;
+}
+#sofa .sofa{
+    display: flex;
+    justify-content: space-between;
+}
+#sofa .sofa .sofa-left{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: relative;
+    width: 73.7%;
+    height: 450px;
+}
+#sofa .sofa .sofa-left .sofa-desc-left h1{
+    font-size: 40px;
+    margin: 50px 80px;
+}
+#sofa .sofa .sofa-left .sofa-desc-left p{
+    margin-right: 52px;
+    font-size: 25px;
+    margin-right: 30px;
+    line-height: 60px;
+}
+#sofa .sofa .sofa-left a{
+    text-decoration: none;
+    background-color: #000000;
+    padding: 10px 30px;
+    color: aliceblue;
+    position: absolute;
+    right: 634px;
+    top: 328px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #58505f;
+
+}
+#sofa .sofa .sofa-left .arshive {
+    display: ruby;
+}
+#sofa .sofa .sofa-left .arshive ul{
+    display: ruby;
+    flex-wrap: wrap;
+}
+#sofa .sofa .sofa-left .arshive ul li .margin{
+margin-top: 0;
+}
+#sofa .sofa .sofa-left .arshive ul li img {
+    width: 145px;
+    height: 121px;
+    margin: 11px;
+}
+#sofa .sofa .sofa-left .img-right img{
+    width: 379px;
+    height: 253px;
+    margin-top: 91px;
+}
+
+#sofa .sofa .sofa-right{
+    display: flex;
+    align-items: center;
+
+}
+#sofa .sofa .sofa-right .sofa-desc-right{
+    width: 100%;
+}
+#sofa .sofa .sofa-right h1{
+font-size: 30px;
+margin-top: 10px;
+}
+#sofa .sofa .sofa-right h2{
+    font-size: 40px;
+    margin-top: 83px;
+    margin-right: 80px;
+    text-shadow: 1px 1px 20px azure;
+}
+/* sofa-item */
+#sofa-item{
+    width: 100%;
+    height:900px;
+    position: relative;
+    display: flex;
+}
+#sofa-item .sofa-cover-item{
+    background-image: url('../images/4.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 28.8%;
+    bottom: 0;
+    left: 0;
+}
+#sofa-item  .sofa-item{
+    display: flex;
+}
+#sofa-item .sofa-item .sofa-item-right{
+    width: 72%;
+    height: 600px;
+}
+#sofa-item .sofa-item .sofa-item-right{
+    width: 28%;
+    height: 600px;
+
+}
+#sofa-item .sofa-item .sofa-item-right ul{
+    width: 100%;
+    margin-top: -80px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#sofa .sofa-item .sofa-item-right ul li{
+    width: 50%;
+    margin-bottom: 30px;
+}
+#sofa-item .sofa-item .sofa-item-right ul li img{
+    width: 180px;
+    height: 200px;
+}
+#sofa-item .sofa-item .sofa-item-right ul li h3{
+    margin: 10px;
+}
+
+/* counters */
+#counters{
+    width: 100%;
+    background-color:#66abf3d4;
+    padding: 120px 0;
+    display: flex;
+}
+#counters .counters{
+    width: 100%;
+    display: flex;
+}
+
+#counters .counters .counters-item{
+    width: 25%;
+    text-align: center;
+}
+#counters .counters .counters-item i {
+    font-size: 45px;
+    margin-bottom: 20px;
+
+}
+#counters .counters .counters-item .counter{
+    margin: 25px 0;
+    font-size: 20px;
+}
+#counters .counters .counters-item h5{
+    font-size: 20px;
+}
+/* footer */
+#footer{
+    background-color: #202020;
+    padding: 100px 0px;
+    display: flex;
+}
+#footer .footer{
+    text-align: center;
+    width: 100%;
+
+}
+#footer .footer h2{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+#footer .footer ul{
+    display: flex;
+    justify-content: center;
+}
+#footer .footer ul li{
+    margin: 0 10xp;
+}
+
+#footer .footerul li a{
+    color: antiquewhite;
+}
+#footer .footer ul li a i {
+    font-size: 50px;
+    margin: 0 20px;
+}
+
+#footer .footer .foooter-desc{
+    padding-top: 20px;
+    border-top: 2px solid #272727;
+    width: 500px;
+    margin: 40px auto;
+}
+#footer .footer .foooter-desc p{
+    line-height: 20px;
+    color: aliceblue;
+    font-size: 30px;
+}
