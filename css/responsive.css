@@ -569,10 +569,10 @@
     #sofa-item .sofa-cover-item {
         background-size: 225px 391px;
         position: absolute;
-        top: 0;
-        right: 38.8%;
-        bottom: 0;
-        left: 0;
+        top: 69px;
+        right: 40.8%;
+        bottom: 19px;
+        left: 15px;
     }
     #sofa-item .sofa-item .sofa-item-right ul li img {
         width: 76px;
